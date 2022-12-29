@@ -12,4 +12,4 @@ services:
     tty: true
     privileged: true
     volumes:
-      - ../../config:/src/config
+      - ../../src:/src
