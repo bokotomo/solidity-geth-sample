@@ -23,6 +23,8 @@ eth.getBalance(eth.accounts[0])
 
 miner.start()
 
+eth.mining
+
 eth.getBalance(eth.accounts[0])
 
 personal.unlockAccount(eth.accounts[0])

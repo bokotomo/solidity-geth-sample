@@ -4,7 +4,7 @@ FROM amd64/ubuntu:latest
 WORKDIR /src
 RUN apt update
 
-# ethereumv
+# ethereum solc
 RUN apt install -y software-properties-common
 RUN add-apt-repository -y ppa:ethereum/ethereum
 RUN apt-get update

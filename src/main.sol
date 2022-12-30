@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract SingleNumRegister {
@@ -7,11 +8,7 @@ contract SingleNumRegister {
         storedData = x;
     }
 
-    function get() public returns (uint256 retVal) {
+    function get() public view returns (uint256 retVal) {
         return storedData;
-    }
-
-    function ok() public returns (string memory) {
-        return "OKOKOKOK";
     }
 }
