@@ -8,7 +8,7 @@ contract SingleNumRegister {
         storedData = x;
     }
 
-    function get() public view returns (uint256 retVal) {
+    function get() public view returns (uint256) {
         return storedData;
     }
 }
