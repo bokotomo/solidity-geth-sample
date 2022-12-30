@@ -1,2 +1,9 @@
 # General
 .DS_Store
+
+# eth_private_net
+geth/
+keystore/
+geth_err.log
+geth.ipc
+history
