@@ -1,5 +1,9 @@
 # solidity-sample
 
+solidity の geth,solc のテスト
+
+## docker
+
 ```
 cd ./infrastructure/docker
 docker-compose exec tt-workspace bash
@@ -8,7 +12,7 @@ docker-compose exec tt-workspace bash
 ## solc build
 
 ```
-solc --abi --bin main.sol
+solc --abi --bin setget.sol
 ```
 
 ## geth contract

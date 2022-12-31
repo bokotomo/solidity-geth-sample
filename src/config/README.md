@@ -1,6 +1,6 @@
 # config
 
-## 1
+## run
 
 ```
 geth --datadir /src/config/eth_private_net/ init /src/config/eth_private_net/myGenesis.json
@@ -8,7 +8,7 @@ geth --datadir /src/config/eth_private_net/ init /src/config/eth_private_net/myG
 geth --networkid "15" --nodiscover --datadir "/src/config/eth_private_net" console 2>> /src/config/eth_private_net//geth_err.log
 ```
 
-## 2
+## sample
 
 ```
 eth.accounts
