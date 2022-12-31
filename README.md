@@ -2,25 +2,26 @@
 
 solidity の geth,solc のテスト
 
-## docker
+## 1 docker
 
 ```
 cd ./infrastructure/docker
+docker-compose up -d
 docker-compose exec tt-workspace bash
 ```
 
-## solc build
-
-```
-solc --abi --bin setget.sol
-```
-
-## geth run
+## 2 geth run
 
 ```
 geth --datadir /src/config/eth_private_net/ init /src/config/eth_private_net/myGenesis.json
 
 geth --networkid "15" --nodiscover --datadir "/src/config/eth_private_net" console 2>> /src/config/eth_private_net//geth_err.log
+```
+
+## 3 solc build
+
+```
+solc --abi --bin setget.sol
 ```
 
 ## geth contract
